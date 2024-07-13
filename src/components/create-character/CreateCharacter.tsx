@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import { v4 as uuidv4 } from "uuid";
 import "./styles.scss";
-import Utils from "../../utils/Utils.tsx";
+import Utils from "../../utils/Utils";
 
 const CreateCharacter = () => {
   const [character, setCharacter] = useState({
